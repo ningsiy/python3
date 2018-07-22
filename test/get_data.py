@@ -1,4 +1,4 @@
-# 爬去klc首页 项目数据 Ywx
+# 爬取klc首页 项目数据 Ywx
 
 import urllib
 import ssl
