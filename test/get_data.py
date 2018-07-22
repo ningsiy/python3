@@ -83,7 +83,7 @@ class GetBorrowInfo:
         for name_txt in borrow_name:
             data = [
                 borrow_nid[index],                            # 项目编号
-                name_txt,                           # 项目名称
+                name_txt,                                     # 项目名称
                 borrow_apr[index].text.replace(' ', ''),      # 项目历史收益率
                 borrow_period[index].text.replace(' ', ''),   # 项目期限
                 borrow_account[index].text.replace(' ', ''),  # 项目金额
